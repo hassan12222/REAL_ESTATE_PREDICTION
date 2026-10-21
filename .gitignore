@@ -1,0 +1,65 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.ipython/
+profile_default/
+
+# Project datasets (raw and generated)
+dld_transactions.csv
+cleaned_modelling_dataset.csv
+
+# Trained models and serialized objects
+*.joblib
+*.pkl
+*.pickle
+
+# Model experiment outputs
+runs/
+mlruns/
+wandb/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
